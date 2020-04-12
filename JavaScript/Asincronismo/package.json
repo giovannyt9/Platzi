@@ -1,0 +1,22 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "Trabajar con asincronismo con Javascript",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:RickAPI": "node src/callback/rickAPI.js",
+    "promise": "node src/promise/index.js",
+    "promise:RickAPI": "node src/promise/rickAPI.js",
+    "async": "node src/async/index.js",
+    "async:RickAPI": "node src/async/rickAPI.js"
+  },
+  "keywords": [
+    "callbacks"
+  ],
+  "author": "giovannyt9@hotmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
